@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b9e0544e.css",
+    "main.js": "/static/js/main.491d7e96.js",
+    "static/media/news.jpg": "/static/media/news.bb15e00c4a33e9b13206.jpg",
+    "static/media/eyeVision.jpg": "/static/media/eyeVision.3ffe6eb4661e07b6d291.jpg",
+    "static/media/projects.jpg": "/static/media/projects.5e5f57b4e1d536818774.jpg",
+    "static/media/group-women.jpg": "/static/media/group-women.505cb42bb1e1751e4022.jpg",
+    "static/media/about.jpg": "/static/media/about.e147f385b3cb5d7af00b.jpg",
+    "static/media/contact.jpg": "/static/media/contact.8748094737881aa063c2.jpg",
+    "static/media/donation-3.png": "/static/media/donation-3.708da764463e18da0647.png",
+    "static/media/donation-2.png": "/static/media/donation-2.e52189f7a5f8ad1b6343.png",
+    "static/media/donation-4.png": "/static/media/donation-4.242a44a60d935fb4573c.png",
+    "static/media/donation-1.png": "/static/media/donation-1.3bd169baffe6ca8f5b81.png",
+    "static/media/donation.jpg": "/static/media/donation.848340706a7881581940.jpg",
+    "static/media/woman-vision-image.jpeg": "/static/media/woman-vision-image.f719b6fdaedfae3915f0.jpeg",
+    "static/media/logo.png": "/static/media/logo.47dc9c405d0acc593649.png",
+    "static/media/donate.jpg": "/static/media/donate.865568997c642e60f96b.jpg",
+    "static/media/flag.jpg": "/static/media/flag.edadd7084649266171c1.jpg",
+    "index.html": "/index.html",
+    "main.b9e0544e.css.map": "/static/css/main.b9e0544e.css.map",
+    "main.491d7e96.js.map": "/static/js/main.491d7e96.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9e0544e.css",
+    "static/js/main.491d7e96.js"
+  ]
+}
