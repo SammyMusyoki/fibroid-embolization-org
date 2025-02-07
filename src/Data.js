@@ -4,6 +4,8 @@ import {
 } from "@heroicons/react/24/outline";
 import { BiMessage } from "react-icons/bi";
 import { GrGallery } from "react-icons/gr";
+import { Link } from "react-router-dom";
+
 
 export const NavLinks = [
   {
@@ -35,36 +37,46 @@ export const NavLinks = [
     href: "/contact-us",
   },
 ];
+
+
 export const Faqs = [
   {
     id: 1,
-    question: 
-    "What are fibroids, and how do they develop?",
-    answer:
-    "Fibroids are non-cancerous growths that develop in the uterus. They are composed of muscle and fibrous tissue and can vary in size and location. The exact cause of fibroid development is not fully understood, but hormonal factors and genetic predisposition are believed to play a role.",
+    question: "What are fibroids, and how do they develop?",
+    answer: (
+      <>
+        <Link to="/fibroids-info" className="text-primary hover:underline">
+          Fibroids
+        </Link>{" "}
+        are non-cancerous growths that develop in the uterus. They are composed
+        of muscle and fibrous tissue and can vary in size and location. The
+        exact cause of fibroid development is not fully understood, but hormonal
+        factors and genetic predisposition are believed to play a role.
+      </>
+    ),
   },
   {
     id: 2,
     question:
-    "What are the symptoms of fibroids, and how do they affect a person's daily life?",
+      "What are the symptoms of fibroids, and how do they affect a person's daily life?",
     answer:
-    "Symptoms of fibroids can vary depending on their size, location, and number. Common symptoms include heavy or prolonged menstrual periods, pelvic pain or pressure, frequent urination, constipation, and abdominal bloating. Fibroids can also cause fertility issues and complications during pregnancy.",
+      "Symptoms of fibroids can vary depending on their size, location, and number. Common symptoms include heavy or prolonged menstrual periods, pelvic pain or pressure, frequent urination, constipation, and abdominal bloating. Fibroids can also cause fertility issues and complications during pregnancy.",
   },
   {
     id: 3,
     question:
       "What is fibroid embolization, and how does it work as \n  a treatment option?",
-      answer:
+    answer:
       "Fibroid embolization, also known as uterine artery embolization (UAE), is a minimally invasive procedure used to treat fibroids. It involves blocking the blood supply to the fibroids, causing them to shrink and alleviating symptoms. During the procedure, tiny particles are injected into the blood vessels that supply the fibroids, cutting off their blood flow.",
-    },
-    {
+  },
+  {
     id: 4,
     question:
       "What are the potential risks and complications associated with fibroid embolization?",
     answer:
       "Like any medical procedure, fibroid embolization carries potential risks and complications. These can include infection, bleeding, injury to surrounding structures, allergic reactions to contrast dye, and the rare possibility of complications related to the embolization material reaching unintended areas.",
-    },
-    {
+  },
+  {
     id: 5,
     question:
       "How does fibroid embolization compare to other treatment options for fibroids, such as surgery or medication?",

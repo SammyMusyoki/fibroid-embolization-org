@@ -4,6 +4,7 @@ import AimSection from '../components/AimSection';
 import VisionSection from '../components/VisionSection';
 import DonationSection from '../components/DonationSection';
 import FAQS from './FAQS';
+import TestimonialSlider from '../components/Testimonials/TestimonialSlider';
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <VisionSection/>
       <FAQS />
       <DonationSection/>
+      <TestimonialSlider/>
     </React.Fragment>
   );
 }

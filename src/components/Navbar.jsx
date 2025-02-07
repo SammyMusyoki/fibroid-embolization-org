@@ -16,7 +16,7 @@ const Navbar = () => {
   }
   return (
     <React.Fragment>
-      <header className="relative inset-x-0 top-0 z-40 bg-green-50 shadow-2xl">
+      <header className="relative inset-x-0 top-0 z-40 bg-green-50">
         <div className="hidden shadow-md lg:flex flex-1 items-center justify-end border-green-200">
           <div className="hidden md:flex mt-4 space-x-6 sm:justify-center sm:mt-0 mr-16">
             <Link to={siteMetadata.facebook} className="">
