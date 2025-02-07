@@ -45,13 +45,14 @@ export const Faqs = [
     question: "What are fibroids, and how do they develop?",
     answer: (
       <>
+        Fibroids are made up of smooth muscle cells and connective tissue. They
+        can grow on or within the inner lining of the uterus. Fibroid growths
+        range in size from very small (less than a quarter of an inch) to very
+        large (the size of a grapefruit). They develop as a single growth or in
+        clusters.{" "}
         <Link to="/fibroids-info" className="text-primary hover:underline">
-          Fibroids
-        </Link>{" "}
-        are non-cancerous growths that develop in the uterus. They are composed
-        of muscle and fibrous tissue and can vary in size and location. The
-        exact cause of fibroid development is not fully understood, but hormonal
-        factors and genetic predisposition are believed to play a role.
+          Read More...
+        </Link>
       </>
     ),
   },
